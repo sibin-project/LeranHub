@@ -1,0 +1,20 @@
+import mongoose from "mongoose";
+
+const userSchema = new mongoose.Schema(
+  {
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+
+    //  Admin and user roles
+    role: { type: String, enum: ["user", "admin"], default: "user" },
+
+    // Progress tracking fields
+    studyStreak: { type: Number, default: 0 },
+    visitedDays: { type: [String], default: [] },
+    lastLogin: { type: Date, default: null },
+  },
+  { timestamps: true }
+);
+
+export default mongoose.model("User", userSchema);
