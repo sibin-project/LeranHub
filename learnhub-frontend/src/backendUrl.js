@@ -1,6 +1,4 @@
 const BACKEND_URL =
-  window.location.hostname.includes("localhost")
-    ? "http://localhost:5000"
-    : "https://nphgd72w-5000.inc1.devtunnels.ms";
+import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
 export default BACKEND_URL;

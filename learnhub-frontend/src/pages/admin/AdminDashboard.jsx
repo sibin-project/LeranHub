@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import axios from "axios";
-import BACKEND_URL from "../../backendURL";
+import BACKEND_URL from "../../backendUrl";
 import { HiUserGroup, HiBookOpen, HiDocumentText, HiMail } from "react-icons/hi";
 
 export default function AdminDashboard() {

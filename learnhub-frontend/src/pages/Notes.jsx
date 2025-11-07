@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import NoteCard from "../components/NoteCard";
-import BACKEND_URL from "../backendURL";
+import BACKEND_URL from "../backendUrl";
 
 export default function Notes() {
   const [notes, setNotes] = useState([]);

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import CourseCard from "../components/CourseCard";
-import BACKEND_URL from "../backendURL";
+import BACKEND_URL from "../backendUrl";
 
 export default function Courses() {
   const [courses, setCourses] = useState([]);

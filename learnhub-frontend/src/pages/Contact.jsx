@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import BACKEND_URL from "../backendURL";
+import BACKEND_URL from "../backendUrl";
 
 export default function Contact() {
   const base_url = BACKEND_URL;

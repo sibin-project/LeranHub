@@ -1,36 +1,16 @@
 # === General ===
 node_modules/
 .env
-.DS_Store
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# === Build Output ===
-dist/
-build/
-.vite/
-.cache/
-coverage/
-tmp/
-temp/
+
+
 
 # === Frontend Specific ===
 learnhub-frontend/node_modules/
-learnhub-frontend/dist/
 learnhub-frontend/.env
 
 
 # === Backend Specific ===
 learnhub-backend/node_modules/
 learnhub-backend/.env
-learnhub-backend/uploads/
-learnhub-backend/logs/
-learnhub-backend/.DS_Store
 
-# === IDE / OS ===
-.vscode/
-.idea/
-*.swp
-Thumbs.db

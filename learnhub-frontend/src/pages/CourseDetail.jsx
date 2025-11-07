@@ -1,7 +1,7 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
-import BACKEND_URL from "../backendURL";
+import BACKEND_URL from "../backendUrl";
 import { HiCheckCircle } from "react-icons/hi";
 
 export default function CourseDetail() {

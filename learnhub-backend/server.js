@@ -15,10 +15,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: [
-        'http://localhost:5173',
-        "https://nphgd72w-5173.inc1.devtunnels.ms",
-    ]
+    origin: process.env.FRONTEND_URL
 }));
 app.use(express.json());
 
