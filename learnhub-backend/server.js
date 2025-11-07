@@ -5,7 +5,7 @@ import authRoutes from "./routes/authRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import courseRoutes from "./routes/courses.js"
 import notesRoutes from './routes/notes.js'
-import connectDB from "./config/Db.js";
+import connectDB from "./config/db.js";
 import adminRoutes from './routes/adminRoutes.js'
 import contactRoutes from './routes/ContactRoutes.js'
 import enrollmentRoutes from './routes/enrollmentRoutes.js'
